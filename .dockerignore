@@ -1,0 +1,30 @@
+# Ignorar archivos generados
+.gradle/
+build/
+out/
+bin/
+
+# Archivos de configuración local
+**/application-local.yml
+**/application-local.properties
+
+# IDEs
+*.iml
+.idea/
+.vscode/
+*.sw?
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Otros
+.env
+*.jar
